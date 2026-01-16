@@ -1,201 +1,120 @@
-/* เลือก Font ที่ดูทันสมัย */
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap');
-
-* {
+*{
+    font-family: 'Kanit',sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Kanit', sans-serif;
 }
-
-body {
-    background-color: #f4f7f6;
+ิbody{
+    background-color: aliceblue;
     color: #333;
     line-height: 1.6;
 }
-
-.container {
-    max-width: 900px;
-    margin: 20px auto;
+.container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
     padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
 }
-
-.profile-card {
+.profile-card{
     background: #fff;
-    border-radius: 15px;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
-
-/* Header & Nav */
-.backgroundhearder-nav {
-    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-    color: #fff;
-    padding: 40px 20px;
+.backgroundhearder-nav{
+    background:linear-gradient(to  right,rgb(1, 70, 197),rgba(15, 121, 241, 0.822));
+    color:#ffffff;
     text-align: center;
+    padding: 30px 10px;
 }
-
-.profile-header h1 {
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
+.profile-header{
+    margin:10px;
 }
-
-.welcome-text {
-    font-weight: 300;
-    opacity: 0.9;
+.welcome-text{
+    margin: 10px;
 }
-
-.nav {
+.nav{
     margin-top: 20px;
 }
-
-.nav-layout {
+.nav-layout{ 
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap:20px;
 }
-
-.nav-layout a {
-    color: #fff;
+.nav-layout a{
     text-decoration: none;
-    padding: 8px 15px;
-    border: 1px solid rgba(187, 7, 7, 0.3);
+    border: 1px solid white;
+    padding: 10px;
     border-radius: 20px;
-    transition: 0.3s;
+    color:#fff;
+    font-weight: 50px;
+    display: inline-block;
+    
+}
+.nav-layout a:hover{
+    background: white;
+    color:#2294ff;
+
 }
 
-.nav-layout a:hover {
-    background: #fff;
-    color: #1e3c72;
-}
+/*โปรไฟล์*/ 
 
-/* Profile Section */
-.backgroundprofile {
-    padding: 40px 20px;
-}
-
-.profile-row {
+.backgroundprofile{
+    background:white;
+    color:#333;
     display: flex;
-    align-items: center;
-    gap: 30px;
+    padding: 80px 50px;
+}
+#profile{
+    display: flex;
+}
+.profile-row{
+    display:flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
-.avatar {
+.avatar{
+    border:3px solid rgb(255, 255, 255);
+    box-shadow: 2px 4px 5px rgb(105, 105, 105);
     border-radius: 50%;
-    border: 5px solid #fff;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    object-fit: cover;
-}
+    flex-wrap: wrap;
+    gap: 50%;
+    margin-left: 40px;
 
-.profile-text h2 {
-    color: #1e3c72;
-    margin-bottom: 15px;
-    border-left: 5px solid #2a5298;
-    padding-left: 10px;
+    
 }
-
-.backgroundname p {
+.profile-text h2{
+    color: rgb(0, 71, 202);
+    padding-left: 40%; 
+    margin-block: 10px;
+}
+.backgroundname p{
     margin-bottom: 10px;
+    overflow: auto;
+    margin-left: 60px;
+}
+.backgroundname a{
+    text-decoration: none;
+    color:rgb(12, 158, 255);
 }
 
-.dokgajeaw {
-    color: #ff4757;
-    font-weight: bold;
-    text-decoration: underline;
+
+
+
+
+
+
+
+
+
+
+
+
+.seperator{
+    border: 1px solid rgb(0, 72, 155);
+    box-shadow: 0px 1px 2px rgb(173, 173, 173);
 }
 
-/* Table Style */
-.backgroundeducation {
-    padding: 20px;
-    overflow-x: auto;
-}
-
-.education h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #1e3c72;
-}
-
-.style-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 30px;
-}
-
-.style-table th, .style-table td {
-    padding: 12px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-}
-
-.style-table th {
-    background-color: #f8f9fa;
-    color: #1e3c72;
-}
-
-/* Section Interest & Contact */
-section {
-    padding: 30px 20px;
-    border-top: 1px solid #eee;
-}
-
-h2 ul, h3 ul {
-    list-style: none;
-    padding: 0;
-}
-
-/* Form Style */
-form {
-    background: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-input[type="text"], textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-input[type="submit"] {
-    background: #1e3c72;
-    color: white;
-    padding: 10px 25px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-input[type="submit"]:hover {
-    background: #2a5298;
-}
-
-/* Footer */
-footer {
-    padding: 40px;
-    background: #333;
-    color: white;
-    text-align: center;
-}
-
-footer img {
-    margin: 10px;
-    transition: 0.3s;
-    filter: brightness(0) invert(1); /* เปลี่ยนไอคอนเป็นสีขาว */
-}
-
-footer img:hover {
-    transform: scale(1.1);
-}
-
-.seperator {
-    border: 0;
-    height: 1px;
-    background: #eee;
-}
+   
+   
