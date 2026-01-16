@@ -83,7 +83,7 @@
     border-radius: 10%;
     flex-wrap: wrap;
     gap: 50%;
-    margin-left: 40px;  
+    margin-left: 20px;  
 }
 .avatar:hover{
     transform: scale(1.1) translate(3px);
@@ -91,7 +91,7 @@
 .profile-text h2{
     text-align: center;
     margin-bottom: 30px;
-    margin-left: 100px;
+    margin-left: 80px;
   
 }
 .profile-text h2{
@@ -110,7 +110,7 @@
 .backgroundname p{
     margin-bottom: 10px;
     overflow: auto;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 .backgroundname a{
     text-decoration: none;
