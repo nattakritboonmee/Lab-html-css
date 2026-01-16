@@ -85,9 +85,23 @@
     
 }
 .profile-text h2{
-    color: rgb(0, 71, 202);
-    padding-left: 40%; 
-    margin-block: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 100px;
+  
+}
+.profile-text h2{
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 2px 2px rgb(0, 27, 68);
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 17px;
+    padding: 5px;
+    background:linear-gradient(to top,rgb(1, 70, 197),rgb(15,121, 241, 0.841));
+    box-shadow: 2px 2px 5px rgba(0,27,68);
+   
+    
+    
 }
 .backgroundname p{
     margin-bottom: 10px;
@@ -99,7 +113,44 @@
     color:rgb(12, 158, 255);
 }
 
-
+/*ประวัติดารศึคกาา*/ 
+.education{
+    text-align: center;
+}
+.education h2{
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 2px 2px rgb(0, 27, 68);
+    padding-bottom: 15px 10px;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 17px;
+    padding: 5px;
+    background:linear-gradient(to top,rgb(1, 70, 197),rgb(15,121, 241, 0.841));
+    box-shadow: 2px 2px 5px rgba(0,27,68);
+ 
+}
+.style-table{
+    width: 100%;
+    text-align: center;
+   padding: 10px;
+}
+.style-table tr,th{
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none; 
+       
+     
+}
+.style-table th{
+    border-top: 1px solid rgba(128, 128, 128, 0.089);
+    border-bottom: 1px solid;
+     color:#046ac9;
+    background: #eeeeee93;
+}
+.style-table td{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.301);
+}
 
 
 
@@ -112,8 +163,9 @@
 
 
 .seperator{
-    border: 1px solid rgb(0, 72, 155);
-    box-shadow: 0px 1px 2px rgb(173, 173, 173);
+    margin: 20px;
+    border: 0.5px solid rgb(151, 203, 247);
+   
 }
 
    
