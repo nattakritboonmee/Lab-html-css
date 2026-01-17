@@ -1,3 +1,9 @@
+@media screen and (max-width: 760px) {  
+
+}
+
+
+
 *{
     font-family: 'Kanit',sans-serif;
     margin: 0;
@@ -29,6 +35,7 @@
     padding: 30px 10px;
 }
 .profile-header{
+    text-shadow: 1px 1px 1px rgb(0, 26, 97);
     margin:10px;
 }
 .welcome-text{
@@ -39,6 +46,7 @@
 }
 .nav-layout{ 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap:20px;
 }
@@ -81,17 +89,20 @@
     border:3px solid rgb(255, 255, 255);
     box-shadow: 2px 4px 5px rgb(0, 35, 80);
     border-radius: 10%;
+    display: flex;
     flex-wrap: wrap;
     gap: 50%;
-    margin-left: 20px;  
+    margin-left: 10px; 
+    margin-bottom: 40px; 
 }
 .avatar:hover{
     transform: scale(1.1) translate(3px);
 }
 .profile-text h2{
+    flex-wrap: wrap;
     text-align: center;
     margin-bottom: 30px;
-    margin-left: 80px;
+    margin-left: 60px;
   
 }
 .profile-text h2{
@@ -108,6 +119,8 @@
     transform: translateY(-3px);
 }
 .backgroundname p{
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 10px;
     overflow: auto;
     margin-left: 40px;
@@ -176,6 +189,7 @@
 }
 #Interest ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
     margin-top: 20px;
@@ -183,6 +197,7 @@
 
 }
 #Interest li{
+    flex-wrap: wrap;
     margin-bottom: 20px;
     color:white;
     display: inline-block;
@@ -208,10 +223,12 @@
 }
 .contact-info ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap:50px;
 }
 .contact-info li{
+    flex-wrap: wrap;
     margin-bottom: 20px;
     color:white;
     display: inline-block;
@@ -317,17 +334,10 @@ input[type="submit"]:hover{
 }
 
 
-
-
-
-
-
-
 .seperator{
     margin: 20px;
     border: 0.5px solid rgb(151, 203, 247);
    
 }
 
-   
    
